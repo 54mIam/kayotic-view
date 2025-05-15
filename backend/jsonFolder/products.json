@@ -1,0 +1,52 @@
+[
+    {
+        "id": "1",
+        "name": "Luna",
+        "priceCenrs": 1099,
+        "image": "/Images/luna.jpeg",
+        "'keywords": [
+            "keyword1",
+            "keyword2"
+        ]
+    },
+    {
+        "id": "2",
+        "name": "winter void",
+        "priceCenrs": 1099,
+        "image": "/home/sammieb38/Sirkayos Design/public/Images/winter-void.jpeg",
+        "'keywords": [
+            "keyword1",
+            "keyword2"
+        ]
+    },
+    {
+        "id": "3",
+        "name": "Eve",
+        "priceCenrs": 1099,
+        "image": "/home/sammieb38/Sirkayos Design/public/Images/eve.jpeg",
+        "'keywords": [
+            "keyword1",
+            "keyword2"
+        ]
+    },
+    {
+        "id": "4",
+        "name": "Emrald City Stairs",
+        "priceCenrs": 1099,
+        "image": "/home/sammieb38/Sirkayos Design/public/Images/green-stairs.jpeg",
+        "'keywords": [
+            "keyword1",
+            "keyword2"
+        ]
+    },
+    {
+        "id": "5",
+        "name": "ocean-sunset",
+        "priceCenrs": 1099,
+        "image": "/home/sammieb38/Sirkayos Design/public/Images/ocean-sunset.jpeg",
+        "'keywords": [
+            "keyword1",
+            "keyword2"
+        ]
+    }
+]

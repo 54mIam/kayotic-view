@@ -1,0 +1,17 @@
+
+
+[
+    {
+        "id": 1,
+        "image":"/Images/artGallery.png"
+,        "title": "Art gallery"
+        
+    },
+    {
+        "id": 2,
+        "image":"/Images/gameScreen.png",
+        "title": "Games"
+        
+    }
+ 
+]

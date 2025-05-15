@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Styles/main.css">
+    <title>Kaotic View</title>
+</head>
+<body>
+    <%- include('./partials/header.ejs') %>
+    
+    <div class="main">
+        <h1>location</h1>
+        <span>
+        Todays date is: <%=  currentDateTime%> 
+            latitude: <%= latitude %>
+            longitude: <%= longitude %>
+        
+        </span>
+        
+        <ul>
+             <% pages.forEach(function(page) { %>
+    <li>
+        
+        <img src="<%= page.image %>" alt="Image for <%= page.title %>">
+
+      <a href="/pages/<%= page.id %>"><%= page.title %></a>
+    </li>
+  <% }); %>
+        </ul>
+            
+        </div>
+    </div>
+
+
+    <script type="module" src="../scripts/location.js" ></script>
+</body>
+</html>
